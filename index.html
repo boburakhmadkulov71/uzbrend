@@ -65,6 +65,16 @@
         .eduprint:hover{
             color: #fff;
         }
+        footer a {
+            transition: color 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+
+        /* Sichqoncha olib borilganda sariq rangga kirishi va o'ngga/tepaga biroz surilishi */
+        footer a:hover {
+            color: #ffc107 !important; /* Sariq rang (Bootstrap warning) */
+            transform: translateX(3px); /* Biroz o'ngga surilish effekti */
+        }
     </style>
 </head>
 <body>
@@ -82,11 +92,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#home">Bosh sahifa</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Bosh sahifa</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">Biz haqimizda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Xizmatlar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#advantages">Afzalliklar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Aloqa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gisht.html">Uz Brend G'ishtlari</a></li>
+                    <li class="nav-item"><a class="nav-link" href="beton.html">Uz Beton Mahsulotlari</a></li>
+                    <li class="nav-item"><a class="nav-link" href="metan.html">Metan Zapravka</a></li>
                 </ul>
             </div>
         </div>
@@ -247,20 +257,43 @@
                         <img src="logo.png" alt="Uz Brend Logo" class="me-2" style="height: 45px; width: auto; object-fit: contain;">
                         Uz Brend G'ishtlari
                     </h5>
-                    <p>Sifat va ishonchlilik timsoli. Sanoat va qurilish sohasida sizning ishonchli hamkoringiz.</p>
-                </div>
-                <div class="col-md-4">
+                    <p>Sifat va ishonchlilik timsoli. Sanoat va qurilish sohasida sizning ishonchli hamkoringiz. Ushbu sohalarda gigant kompaniya bo'lib, o'z hamkorlari va haridorlariga ega!</p>
+                    </div>
+                    <div class="col-md-4">
                     <h5 class="text-warning fw-bold mb-3">Aloqa</h5>
-                    <p><i class="fa-solid fa-location-dot me-2"></i> O'zbekiston, Toshkent v.</p>
-                    <p><i class="fa-solid fa-phone me-2"></i> +998 (90) 123-45-67</p>
-                    <p><i class="fa-solid fa-envelope me-2"></i> info@uzbrendgisht.uz</p>
+                    
+                    <!-- Manzil havolasi (Google Maps) -->
+                    <p>
+                        <a href="https://maps.app.goo.gl/ezuzHSfYMjRPBncZ9" target="_blank" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-location-dot me-2 text-warning"></i> O'zbekiston, Farg'ona, Rishton
+                        </a>
+                    </p>
+                    
+                    <!-- Telefon raqam havolasi -->
+                    <p>
+                        <a href="tel:+998990857383" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-phone me-2 text-warning"></i> +998 (99) 085-73-83
+                        </a>
+                    </p>
+                    
+                    <p>
+                        <a href="tel:+998953961155" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-phone me-2 text-warning" style="opacity: 0;"></i> +998 (95) 396-11-55
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="tel:+998993455122" class="text-white text-decoration-none">
+                            <i class="fa-solid fa-phone me-2 text-warning" style="opacity: 0;"></i> +998 (99) 345-51-22
+                        </a>
+                    </p>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-warning fw-bold mb-3">Biz ijtimoiy tarmoqlarda</h5>
+                    <h5 class="text-warning fw-bold mb-3">Bizni ijtimoiy tarmoqlarda kuzatin:</h5>
                     <div class="d-flex gap-3 fs-3">
-                        <a href="#" class="text-white"><i class="fa-brands fa-telegram"></i></a>
-                        <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://t.me/+998953961155" class="text-white"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://instagram.com/uz_brend_gishtlari" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://youtube.com/@OtabekAbduraxmonov-1997" class="text-white"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
