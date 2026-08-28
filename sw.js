@@ -1,12 +1,42 @@
 const CACHE_NAME = 'zavod-v1';
 const ASSETS_TO_CACHE = [
   '/',
+  // HTML Sahifalar
   '/index.html',
-  '/manifest.json',
-  // Agar CSS, JS yoki rasm fayllaringiz bo'lsa, ularni ham kiriting:
-  // '/style.css',
-  // '/script.js',
-  // '/icon-512.png'
+  '/beton.html',
+  '/gisht.html',
+  '/metan.html',
+  '/xitoy.html',
+
+  // JPG Rasmlar
+  '/beton.jpg',
+  '/gazoblok.jpg',
+  '/kolodes.jpg',
+  '/kran.jpg',
+  '/metan.jpg',
+  '/og-image.jpg',
+  '/plita.jpg',
+  '/robot.jpg',
+  '/stolba.jpg',
+
+  // PNG Rasmlar
+  '/60x60.png',
+  '/brick-bg.png',
+  '/logo.png',
+  '/lotok.png',
+  '/mini-kara.png',
+  '/mishalka.png',
+  '/mixer.png',
+  '/paltara.png',
+  '/photo.png',
+  '/press.png',
+  '/standart.png',
+  '/store_icon.png',
+
+  // Boshqa formatlar va tayanch fayllar
+  '/kara.avif',
+  '/drobilka.svg',
+  '/manifest.json'
 ];
 
 // O'rnatish: fayllarni keshga saqlash
