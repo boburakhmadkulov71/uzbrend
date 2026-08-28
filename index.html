@@ -316,5 +316,14 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('Service Worker o'rnatildi:', reg.scope))
+            .catch((err) => console.log('Service Worker xatosi:', err));
+        });
+      }
+    </script>
 </body>
 </html>
